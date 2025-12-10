@@ -1,0 +1,107 @@
+Design Guidelines for BARBEARIA GABIROBA Landing Page
+Design Approach
+Premium Barber Shop Aesthetic - Modern, masculine, elegant design drawing inspiration from high-end grooming establishments with a distinctive green-neon signature theme.
+
+Core Design Elements
+Color Palette
+Primary Background: Deep black to dark graphite (#0a0a0a to #1a1a1a)
+Neon Accent: Electric green (#00ff41, #39ff14) with glowing effects
+Text: White to light gray for contrast
+Cards/Surfaces: Dark gray with subtle transparency
+Typography
+Headings: Bold, modern sans-serif with strong presence (Bebas Neue, Oswald, or Barlow Condensed style)
+Body Text: Clean, professional sans-serif (Roboto, Inter, or Poppins)
+Neon Title Treatment: "BARBEARIA GABIROBA" with green glow shadow effects
+Hierarchy: Large hero titles (60-80px desktop), medium section headers (36-48px), readable body text (16-18px)
+Layout System
+Spacing: Tailwind units of 4, 8, 12, 16, 20, 24 (e.g., p-8, gap-12, py-20)
+Section Padding: py-16 to py-24 for consistent vertical rhythm
+Container: max-w-7xl for main content areas
+Grid Systems: 3-column for services (stacks to 1 on mobile), masonry-style for gallery
+Component Library
+Navigation
+
+Sticky header, initially transparent with blur effect, transitions to solid dark (#0a0a0a) on scroll
+Logo on left, navigation links center/right, green neon underline on active/hover
+Mobile: Hamburger menu with slide-in panel
+Hero Section
+
+Layout: Fullscreen (100vh) with centered content
+Background: Dark barber shop image (modern interior with leather chairs, mirrors, warm ambient lighting) with dark overlay (rgba(0,0,0,0.7))
+Title: Large "BARBEARIA GABIROBA" with animated green neon glow pulsing effect
+Subtitle: "Estilo, precisão e o corte que combina com você" in lighter weight
+CTAs: Two buttons side-by-side - "Agendar Agora" (primary green-neon fill) and "Falar no WhatsApp" (green-neon outline) with blur backdrop
+Decorative Elements: Subtle animated neon particles or glow lines floating in background
+About Section
+
+2-column layout: Text left, 3 animated icon cards right
+Icons representing: Experience (scissors), Style (comb), Quality (star/badge)
+Cards with dark background, green-neon borders that glow on hover
+Fade-in animations on scroll
+Services Cards
+
+3-column grid (2-column tablet, 1-column mobile)
+Each card: Icon at top, service name, brief description
+Services: Corte Masculino, Barba Completa, Navalhado Premium, Degradê, Sobrancelha, Pacotes Especiais
+Dark card backgrounds with soft shadows
+Green-neon outline that intensifies on hover
+Icons: Barber-themed (scissors, razor, beard, comb) in green-neon style
+Slide-up animation on scroll
+Gallery
+
+4-column masonry grid (3-col tablet, 2-col mobile)
+Modern men's haircut placeholder images (fades, pompadours, undercuts, beard styles)
+Zoom effect on hover with green-neon border glow
+Fade-in stagger animation on scroll
+Location Section
+
+2-column split: Google Maps iframe left (60%), address info right (40%)
+Full address with pin icon
+"Abrir no Google Maps" button in green-neon style
+Dark background with subtle green accent
+Contact Section
+
+2-column: Contact form left, quick contact info right
+Form fields: Name, Phone, Message with green-neon focus states
+Quick contact: WhatsApp (clickable), Phone, Business Hours
+Green-neon submit button
+Footer
+
+3-column layout: Business info, Quick links, Social media placeholders
+Dark background with green-neon separator line at top
+Dynamic copyright year (JavaScript)
+Minimal, elegant spacing
+Floating Elements
+
+WhatsApp button: Fixed bottom-right, circular, green-neon (#25D366) with pulse animation
+Animations & Interactions
+Scroll Animations: Use AOS.js library
+Fade-in for text blocks
+Slide-up for cards
+Stagger for gallery items
+Hover States: Neon glow intensification (box-shadow expansion)
+Button Interactions: Green-neon glow on hover, slight scale transform
+Header Transition: Smooth 0.3s ease for transparency to solid
+Neon Effects: CSS text-shadow and box-shadow with green layers creating glow
+Images
+Hero Background: Modern barber shop interior - leather chairs, vintage mirrors, warm Edison bulbs, dark wood accents, professional grooming tools visible, atmospheric lighting
+
+Gallery Images (8-12 placeholders):
+
+Clean fade haircuts
+Sharp beard trims
+Modern pompadour styles
+Undercut designs
+Before/after transformations
+Barber action shots (trimming, styling)
+Accessibility & Responsiveness
+Maintain consistent green-neon contrast ratios against dark backgrounds
+Mobile: Stack all multi-column layouts to single column
+Touch-friendly button sizes (min 44px height)
+Smooth scroll behavior across all devices
+Form inputs with clear focus states
+Key Visual Principles
+Premium Feel: Polished, professional, never cheap
+Masculine Energy: Bold typography, strong contrasts, decisive layouts
+Neon Signature: Green glow effects used strategically, not overwhelming
+Modern Sophistication: Clean lines, ample spacing, refined details
