@@ -339,63 +339,53 @@
     </section>
 
     <!-- Gallery Section -->
-    <section id="gallery" class="py-24 bg-background">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16" data-aos="fade-up">
-                <h2 class="text-primary font-bold tracking-widest uppercase mb-2 text-sm">Portfólio</h2>
-                <h3 class="text-4xl md:text-5xl font-heading text-white">Nosso Trabalho</h3>
+<section id="gallery" class="py-24 bg-background">
+    <div class="container mx-auto px-4">
+
+        <!-- Título -->
+        <div class="text-center mb-16" data-aos="fade-up">
+            <h2 class="text-primary font-bold tracking-widest uppercase mb-2 text-sm">Portfólio</h2>
+            <h3 class="text-4xl md:text-5xl font-heading text-white">Nosso Trabalho</h3>
+        </div>
+
+        <!-- VIDEO PRINCIPAL -->
+        <div class="relative overflow-hidden rounded-xl mb-12 group" data-aos="zoom-in">
+            <video
+                class="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
+                autoplay
+                loop
+                muted
+                playsinline
+                poster="./assets/man_with_fresh_fade_haircut_side_profile.png"
+            >
+                <source src="./assets/video1.mp4" type="video/mp4">
+            </video>
+
+            <!-- Overlay opcional -->
+            <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+
+        <!-- FOTOS ABAIXO -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="relative group overflow-hidden rounded-lg" data-aos="zoom-in">
+                <img src="./assets/foto1.jpg" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110">
             </div>
 
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-[250px]">
-                <!-- Use generated images randomly for gallery -->
-                <div class="relative group overflow-hidden rounded-lg row-span-2" data-aos="zoom-in" data-aos-delay="0">
-                    <img src="./assets/foto7.webp" alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+            <div class="relative group overflow-hidden rounded-lg" data-aos="zoom-in" data-aos-delay="100">
+                <img src="./assets/foto2.jpg" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110">
+            </div>
 
-                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center border-2 border-primary/0 group-hover:border-primary m-2 rounded-lg">
-                        <p class="text-white font-heading text-xl tracking-wider translate-y-4 group-hover:translate-y-0 transition-transform duration-300"></p>
-                    </div>
-                </div>
-                <div class="relative group overflow-hidden rounded-lg row-span-1" data-aos="zoom-in" data-aos-delay="50">
-                    <img src="./assets/foto2.jpg" alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center border-2 border-primary/0 group-hover:border-primary m-2 rounded-lg">
-                        <p class="text-white font-heading text-xl tracking-wider translate-y-4 group-hover:translate-y-0 transition-transform duration-300"></p>
-                    </div>
-                </div>
-                <div class="relative group overflow-hidden rounded-lg row-span-1" data-aos="zoom-in" data-aos-delay="100">
-                    <img src="./assets/foto3.jpg" alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center border-2 border-primary/0 group-hover:border-primary m-2 rounded-lg">
-                        <p class="text-white font-heading text-xl tracking-wider translate-y-4 group-hover:translate-y-0 transition-transform duration-300"></p>
-                    </div>
-                </div>
-                <div class="relative group overflow-hidden rounded-lg row-span-2" data-aos="zoom-in" data-aos-delay="150">
-            <video
-        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-        autoplay
-        loop
-        muted
-        playsinline
-        poster="/assets/man_with_fresh_fade_haircut_side_profile.png"
-    >
-    <source src="./assets/video1.mp4" type="video/mp4">
-</video>                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center border-2 border-primary/0 group-hover:border-primary m-2 rounded-lg">
-                        <p class="text-white font-heading text-xl tracking-wider translate-y-4 group-hover:translate-y-0 transition-transform duration-300"></p>
-                    </div>
-                </div>
-                <div class="relative group overflow-hidden rounded-lg row-span-1" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="./assets/foto1.jpg" alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center border-2 border-primary/0 group-hover:border-primary m-2 rounded-lg">
-                        <p class="text-white font-heading text-xl tracking-wider translate-y-4 group-hover:translate-y-0 transition-transform duration-300"></p>
-                    </div>
-                </div>
-                 <div class="relative group overflow-hidden rounded-lg row-span-1" data-aos="zoom-in" data-aos-delay="250">
-                    <img src="./assets/foto4.jpg" alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center border-2 border-primary/0 group-hover:border-primary m-2 rounded-lg">
-                        <p class="text-white font-heading text-xl tracking-wider translate-y-4 group-hover:translate-y-0 transition-transform duration-300"></p>
-                    </div>
-                </div>
+            <div class="relative group overflow-hidden rounded-lg" data-aos="zoom-in" data-aos-delay="200">
+                <img src="./assets/foto3.jpg" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110">
+            </div>
+
+            <div class="relative group overflow-hidden rounded-lg" data-aos="zoom-in" data-aos-delay="300">
+                <img src="./assets/foto4.jpg" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110">
             </div>
         </div>
-    </section>
+
+    </div>
+</section>
 
     <!-- Location Section -->
     <section class="py-24 bg-[#0d0d0d] relative">
