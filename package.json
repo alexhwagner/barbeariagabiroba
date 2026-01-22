@@ -1,0 +1,8 @@
+{
+  "name": "barbearia-gabiroba-static",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:client": "node server.js",
+    "start": "node server.js"
+  }
+}
